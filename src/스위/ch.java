@@ -10,20 +10,19 @@ public class ch {
         x = sc.nextInt();
         op = sc.next().charAt(0);
         y = sc.nextInt();
-        switch(op) {
-            case '+' :
+        switch (op) {
+            case '+':
                 System.out.printf("SUM : %d\n", x + y);
                 break;
-            case '-' :
+            case '-':
                 System.out.printf("SUB : %d\n", x - y);
                 break;
-            case '*' :
+            case '*':
                 System.out.printf("MUL : %d\n", x * y);
                 break;
-            case '/' :
-                System.out.printf("DIV : %d\n",  
-                break;
-            default :
+
+            default:
                 System.out.println("조건식이 없습니다.");
+        }
     }
 }

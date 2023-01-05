@@ -6,7 +6,7 @@ public class WhileEx {
         while (true){
             treeHit++;
                     System.out.println("나무ㄷ를0" + treeHit + "번 찍었습니다");
-                    if(treeHit == 10) {
+                    if(treeHit == 999) {
                         System.out.println("나무가 넘어 갑니다");
                         break;
                     }

@@ -2,7 +2,7 @@ package 반복문유효체크;
 
 import java.util.Scanner;
 
-// 반복문을 이용해서 유효값 체크 하기
+// 반복문을 이용해서 유효값 체크 하기 (whiled 반복문 사용)
 public class ValidCheak {
     public static void main(String[] args) {
         int age;
