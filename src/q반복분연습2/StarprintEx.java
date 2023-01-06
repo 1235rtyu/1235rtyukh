@@ -14,7 +14,7 @@ public class StarprintEx {
         int star = sc.nextInt();
         for (int i = 0; i < star; i++) { //i줄 j행
             for(int j = 0; j <i+1; j++){
-                System.out.print("*");
+                System.out.print("* ");
             }
             System.out.println(); // 줄
         }
