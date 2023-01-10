@@ -20,7 +20,7 @@ public class t {
         //창영이가 알려준 방법대로 시간을 45분 이전으로 돌림(45를 뺴줌)
         calc -= 45; // calc = calc - 45;
         //계산 결과를 시간과 분으로 출력하기 위해 다시 변환 후 출력
-        System.out.printf("%d시 %d분\n", (calc / 60), (calc % 60));
+        System.out.printf("%d시 0%d분\n", (calc / 60), (calc % 60));
 
 
     }
